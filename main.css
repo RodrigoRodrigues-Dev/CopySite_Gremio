@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 1150px;
+    width: 100%;
+}
+
+body,
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000;
+    font-weight: 700;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container img {
+    height: 70px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #dfdfdf;
+    padding-bottom: 8px;
+}
+
+header nav li a:hover {
+    border-bottom: 3px solid rgb(70, 196, 255);
+}
+
+#News {
+    margin-bottom: 17px;
+}
+
+.news-header, 
+.professional-header, 
+.contact-header {
+    background-color: #ebebeb;
+}
+
+#News .news-header .container,
+#professional .professional-header .container,
+#contact .contact-header .container {
+    padding: 26px 0px;
+}
+.news-header h2 {
+    font-size: 32px;
+    color: #333333;
+}
+
+.news-body {
+    margin-top: 42px;
+}
+
+.news-body img {
+    width: 450px;
+}
+
+.news-body .container {
+    display: flex;
+}
+
+.news-body--body {
+    margin-left: 23px;
+}
+
+.news-body--body span {
+    color: #00ADEE;
+}
+
+.news-body--body h1,
+.professional-header h3,
+.contact-header h2{
+    font-weight: 900;
+    font-size: 32px;
+    color: #2c2c2c;
+    line-height: 29px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.news-body--body h2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #3b3b3b;
+}
+
+.news-body--body h4 {
+    font-size: 13.6px;
+    color: #777777;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.news-body--body p {
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 26px;
+}
+
+.news-body--body button,
+.professional-body--ProximoJogo button,
+.professional-body--UltimoJogo button,
+form button {
+    padding: 15px 21px;
+    background-color: #00ADEE;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.news-body--body button:hover,
+.professional-body--UltimoJogo button:hover,
+.professional-body--ProximoJogo button:hover {
+    background-color: #0087b8;
+    cursor: pointer;
+}
+
+.professional-Timeline {
+    margin-bottom: 28px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.professional-Timeline li {
+    display: inline;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.professional-Timeline ul {
+    padding: 37px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.professional-Timeline li span {
+    color: #00ADEE;
+}
+
+.professional-Timeline li:nth-child(n + 2) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #646464;
+}
+
+.professional-Timeline li:nth-child(-n + 1) {
+    color: #333333;
+    border-bottom: 3px solid rgb(70, 196, 255);
+    padding-bottom: 12px;
+}
+
+.professional-Timeline li:hover {
+    color: #333333;
+    border-bottom: 3px solid rgb(70, 196, 255);
+    padding-bottom: 12px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.professional-body {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 20px;
+}
+
+.professional-body .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.professional-body--UltimoJogo,
+.professional-body--ProximoJogo {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+}
+
+.professional-body--UltimoJogo p,
+.professional-body--ProximoJogo p {
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.professional-body--UltimoJogo ul,
+.professional-body--ProximoJogo ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 900;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.professional-body--UltimoJogo h3,
+.professional-body--ProximoJogo h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #3d3d3d;
+}
+
+.professional-body--UltimoJogo h4,
+.professional-body--ProximoJogo h4 {
+    color: #00ADEE;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.professional-body--UltimoJogo button,
+.professional-body--ProximoJogo button {
+    margin-top: 16px;
+}
+
+.bar {
+    background-color: #c0c0c0;
+    width: 1px;
+}
+
+.contact-header {
+    margin-top: 42px;
+    margin-bottom: 32px;
+}
+
+.contact-body .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+address {
+    margin-top: 40px;
+}
+
+address h4{
+    font-size: 20px;
+    font-weight: 900;
+    color: #333333;
+
+}
+
+address p {
+    margin-top: 12px;
+    margin-bottom: 13px;
+    margin-left: 37px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+address a:nth-child(n + 2) {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+address a:nth-child(n + 3) {
+    padding: 11px 18px;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.address-dates {
+    display: flex;
+    align-items: center;
+}
+
+.address-dates img {
+    margin-right: 10px;
+}
+
+form input,
+form textarea,
+form button,
+form select {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    padding: 9px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form textarea:focus {
+    outline-color: #00ADEE
+}
+
+form span {
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+select option {
+    color: #3d3d3d;
+}
+
+form button {
+    margin-bottom: 0px;
+}
+
+footer {
+    border-top: 2px solid #999999;
+    background-color: #000;
+    color: #818181;
+    padding: 15px;
+    margin-top: 32px;
+}
+
+footer img {
+    width: 45px;
+    margin-right: 12px;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
